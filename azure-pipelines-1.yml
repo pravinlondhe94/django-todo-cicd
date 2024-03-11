@@ -6,8 +6,8 @@
 trigger:
 - develop
 
-pool:
-  vmImage: ubuntu-latest
+pool: 
+  Mypool
 strategy:
   matrix:
     Python35:
